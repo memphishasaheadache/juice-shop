@@ -13,7 +13,7 @@ library.add(faKey, faEye, faEyeSlash, faGoogle)
 dom.watch()
 
 const oauthProviderUrl = 'https://accounts.google.com/o/oauth2/v2/auth'
-const clientId = '1005568560502-6hm16lef8oh46hr2d98vf2ohlnj4nfhq.apps.googleusercontent.com'
+const clientId = '317644808970-4gr2gpojo8ue80kvj7v3e0detgnt5q4b.apps.googleusercontent.com'
 
 const authorizedRedirectURIs: any = {
   'https://demo.owasp-juice.shop': 'https://demo.owasp-juice.shop',
@@ -29,7 +29,8 @@ const authorizedRedirectURIs: any = {
   'http://127.0.0.1:3000': 'http://local3000.owasp-juice.shop',
   'http://localhost:4200': 'http://local4200.owasp-juice.shop',
   'http://127.0.0.1:4200': 'http://local4200.owasp-juice.shop',
-  'http://192.168.99.100:3000': 'http://localMac.owasp-juice.shop'
+  'http://192.168.99.100:3000': 'http://localMac.owasp-juice.shop',
+  'https://juice.gdpr-appdetex.com:5492': 'https://juice.gdpr-appdetex.com:5492'
 }
 
 @Component({
